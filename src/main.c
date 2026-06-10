@@ -9,6 +9,8 @@
 #include "esp_adc/adc_oneshot.h"
 #include "freertos/timers.h"
 
+// Integrantes: Kevin Veláquez, Eduardo González
+
 #define Led 2
 #define bot 4
 
