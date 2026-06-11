@@ -9,7 +9,16 @@
 #include "esp_adc/adc_oneshot.h"
 #include "freertos/timers.h"
 
-// Integrantes: Kevin Veláquez, Eduardo González
+/*
+ * =============================================================================
+ * CONCLUSION DEL EQUIPO
+ * Integrantes: Kevin Veláquez, Eduardo González
+ *
+ * El uso y configuración de la función del idle hook task de FreeRTOS
+ * nos permitió y enseño a aprovechar el tiempo de ocio del sistema,
+ * mediante el uso de banderas para activar un timer o reanudar otra tarea.
+ * =============================================================================
+*/
 
 #define Led 2
 #define bot 4
@@ -21,7 +30,6 @@
 static adc_oneshot_unit_handle_t s_adc_handle = NULL;
 static const char *TAG = "ADC_READER";
 
-//volatile bool g_botonPres = false; FREERTOS_USE_IDLE_HOOK
 
 uint16_t adc;
 bool bandera = true;
