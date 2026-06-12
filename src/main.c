@@ -12,7 +12,7 @@
 /*
  * =============================================================================
  * CONCLUSION DEL EQUIPO
- * Integrantes: Kevin Veláquez, Eduardo González
+ * Integrantes: Kevin Veláquez Hernández, Eduardo González Olvera
  *
  * El uso y configuración de la función del idle hook task de FreeRTOS
  * nos permitió y enseño a aprovechar el tiempo de ocio del sistema,
